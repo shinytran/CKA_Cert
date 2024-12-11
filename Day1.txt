@@ -41,6 +41,7 @@ Bạn cần thực hiện 2 bước:
 
 Thêm tệp mới:
 git add new_filename
+hoặc git add . (để add tất cả các file thêm mới/ modified)
 Xóa tệp cũ khỏi Git:
 
 
@@ -50,3 +51,5 @@ git commit -m "Renamed old_filename to new_filename"
 
 3. Đẩy thay đổi lên GitHub
 git push origin main
+
+-------
