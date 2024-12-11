@@ -17,3 +17,36 @@ ultimate-cka-certified-kubernetes-administrator
 https://www.youtube.com/watch?v=6_gMoe7Ik8k&list=PLl4APkPHzsUUOkOv3i62UidrLmSB8DcGC&ab_channel=TechTutorialswithPiyush
 
 ## 1. Buổi 1
+
+
+Sửa tên file có 2 cách:
+
+1. Đổi tên file bằng lệnh Git
+Sử dụng lệnh git mv để đổi tên file. Điều này giúp Git theo dõi sự thay đổi tên mà không cần xóa file cũ và thêm lại file mới:
+
+git mv old_filename new_filename
+Ví dụ:
+git mv file1.txt file2.txt
+Sau đó, commit sự thay đổi:
+git commit -m "Renamed file1.txt to file2.txt"
+
+2. Nếu đã đổi tên file trực tiếp (không dùng Git)
+Nếu bạn đã đổi tên file trực tiếp bằng hệ điều hành, hãy chạy lệnh sau để Git nhận diện sự thay đổi:
+
+git status
+Git sẽ hiển thị tệp cũ bị xóa và tệp mới chưa được theo dõi. Ví dụ:
+Deleted:    old_filename
+Untracked:  new_filename
+Bạn cần thực hiện 2 bước:
+
+Thêm tệp mới:
+git add new_filename
+Xóa tệp cũ khỏi Git:
+
+
+git rm old_filename
+Sau đó, commit sự thay đổi:
+git commit -m "Renamed old_filename to new_filename"
+
+3. Đẩy thay đổi lên GitHub
+git push origin main
