@@ -1,0 +1,19 @@
+
+
+
+--
+Config git:
+ssh-keygen -t rsa -b 4096 -C "quangtn102@gmail.com"
+echo "# CKA_Cert" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com-quangtn102:shinytran/CKA_Cert.git 
+git push -u origin main
+
+--
+ultimate-cka-certified-kubernetes-administrator
+https://www.youtube.com/watch?v=6_gMoe7Ik8k&list=PLl4APkPHzsUUOkOv3i62UidrLmSB8DcGC&ab_channel=TechTutorialswithPiyush
+
+## 1. Buổi 1
