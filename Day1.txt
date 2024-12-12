@@ -17,7 +17,11 @@ Link git commit:
 https://github.com/shinytran/CKA_Cert
 --
 ultimate-cka-certified-kubernetes-administrator
+--
 https://www.youtube.com/watch?v=6_gMoe7Ik8k&list=PLl4APkPHzsUUOkOv3i62UidrLmSB8DcGC&ab_channel=TechTutorialswithPiyush
+--
+https://github.com/piyushsachdeva/CKA-2024/tree/main/Resources/Day01
+--
 
 ## 1. Buổi 1
 
